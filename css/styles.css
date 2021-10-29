@@ -1,9 +1,9 @@
 .nav {
     overflow: hidden;
     padding: 20px 10px;
-}
-.nav-right a {
     float: right;
+}
+.nav-bar a {
     color: black;
     line-height: 20px;
     text-align: center;
