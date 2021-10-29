@@ -18,16 +18,18 @@ h1 {
     display: block;
     text-align: left;
     clear: both;
+    margin-top: 200PX;
 }
 #city img {
-    height: 800px;
-    width: 500px;
+    height: 500px;
+    width: 400px;
     float: right;
     clear: both;
 }
 .column {
     width: 50%;
     clear: both;
+    margin-top: 200PX;
 }
 .column2 {
     float: right;
