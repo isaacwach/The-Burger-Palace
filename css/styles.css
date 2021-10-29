@@ -1,44 +1,77 @@
-.nav {
-    overflow: hidden;
-    padding: 20px 10px;
-    float: right;
-}
-.nav-bar a {
-    color: black;
-    line-height: 20px;
-    text-align: center;
-    text-decoration: none;
-}
-h1 {
+.header img {
     float: left;
+    width: 100px;
+    height: 100px;
     clear: both;
-}
-.intro {
-    width: 400px;
-    display: block;
-    text-align: left;
-    clear: both;
-    margin-top: 200PX;
-}
-#city img {
-    height: 500px;
-    width: 400px;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+.topnav a {
     float: right;
-    clear: both;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
 }
-.column {
-    width: 50%;
-    clear: both;
-    margin-top: 200PX;
+.topnav {
+    margin-top: -50px;
+}
+.row {
+    display: flex;
 }
 .column2 {
-    float: right;
-    clear: both;
-    background-color: yellow;
+    flex: 50%;
+    padding: 16px;
+    height: 200px;
     width: 50%;
-    margin-top: -170px;
+}
+.column1 {
+    margin-top: 200px;
+    width: 50%;
+    font-size: 40px;
 }
 button {
-    margin-top: 80px;
-    margin-left: 20px;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 20%;
+    background-color: orange;
 }
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    border: solid black;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row1 {
+      margin-top: 750px;
+      column-gap: 2rem;
+      display: block;
+  }
+  .menu {
+      display: block;
+      width: 90%;
+  }
+  .menu h1 {
+      text-align: center;
+  }
+  .grid2 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+  }
