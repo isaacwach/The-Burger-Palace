@@ -2,6 +2,9 @@
     overflow: hidden;
     padding: 20px 10px;
 }
-.nav a {
+.nav-right a {
     float: right;
+    color: black;
+    line-height: 20px;
+    text-align: center;
 }
