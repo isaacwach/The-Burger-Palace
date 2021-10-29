@@ -75,3 +75,9 @@ button {
       gap: 10px;
       grid-auto-rows: minmax(100px, auto);
   }
+  .image img {
+    background-color: #E1EBE6;
+  }
+  .image p {
+      font-size: 20px;
+  }
