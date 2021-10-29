@@ -17,4 +17,22 @@ h1 {
     width: 400px;
     display: block;
     text-align: left;
+    clear: both;
+}
+#city img {
+    height: 800px;
+    width: 500px;
+    float: right;
+    clear: both;
+}
+.column {
+    width: 50%;
+    clear: both;
+}
+.column2 {
+    float: right;
+    clear: both;
+    background-color: yellow;
+    width: 50%;
+    margin-top: -170px;
 }
