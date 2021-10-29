@@ -13,3 +13,8 @@ h1 {
     float: left;
     clear: both;
 }
+.intro {
+    width: 400px;
+    display: block;
+    text-align: left;
+}
