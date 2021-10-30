@@ -166,7 +166,7 @@ button {
   .header h1 span {
       color: orange;
   }
-#right { 
+/* #right { 
     margin: 200px 20% 40px 0;
     float:right;
     }
@@ -175,4 +175,11 @@ button {
     margin: 200px 40px 0 20% ;
     float:left; 
     clear: left;
-    }
+    } */
+.decker .row {
+    display: flex;
+}
+.decker .row #left {
+    margin-top: 300px;
+    margin-left: 60px;
+}
