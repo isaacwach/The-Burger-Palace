@@ -259,3 +259,13 @@ button {
     font-style: italic;
     font-size: 30px;
 }
+.copy {
+    width: 30%;
+}
+.icons {
+    width: 30%;
+    margin-bottom: 0;
+}
+.name {
+    width: 30%;
+}
