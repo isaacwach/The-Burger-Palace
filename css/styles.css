@@ -182,4 +182,8 @@ button {
 .decker .row #left {
     margin-top: 300px;
     margin-left: 60px;
+    font-size: 40px;
+}
+.decker .row #left h1 span {
+    color: rgb(255, 165, 0);
 }
