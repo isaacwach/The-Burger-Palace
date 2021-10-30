@@ -187,3 +187,56 @@ button {
 .decker .row #left h1 span {
     color: rgb(255, 165, 0);
 }
+.logo-col {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.footer {
+    box-sizing: border-box;
+    display: block;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.site-col a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black  ;
+}
+.row {
+    display: flex;
+}
+.footer-email-col {
+    width: 30%;
+    line-height: 50px;
+}
+.site-col {
+    width: 40%;
+}
+.site-col a:hover {
+    color: red;
+}
+#footer-email {
+    width: 240px;
+    outline: none;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    border: solid #161515;
+    border-width: 2px;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#footer-email-btn {
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-left: -5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgb(255, 165, 0);
+}
