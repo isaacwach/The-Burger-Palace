@@ -85,3 +85,13 @@ button {
   .header h1 span {
       color: orange;
   }
+#right { 
+    margin: 200px 20% 40px 0;
+    float:right;
+    }
+    
+#left { 
+    margin: 200px 40px 0 20% ;
+    float:left; 
+    clear: left;
+    }
