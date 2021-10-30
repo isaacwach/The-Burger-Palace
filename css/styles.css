@@ -240,3 +240,10 @@ button {
     border-bottom-left-radius: 0;
     background-color: rgb(255, 165, 0);
 }
+.logo-col p span {
+    color: rgb(255, 165, 0);
+}
+.logo-col p {
+    font-style: italic;
+    font-size: 30px;
+}
