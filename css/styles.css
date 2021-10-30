@@ -260,12 +260,15 @@ button {
     font-size: 30px;
 }
 .copy {
-    width: 30%;
+    width: 40%;
 }
 .icons {
-    width: 30%;
-    margin-bottom: 0;
+    width: 70%;
+    bottom: 0;
 }
 .name {
     width: 30%;
+}
+.fa {
+    padding: 10px;
 }
