@@ -76,6 +76,11 @@ button {
     border-top-right-radius: 20%;
     background-color: orange;
 }
+button:hover {
+    transition: 0.5s;
+    background-color: blue;
+    cursor: pointer;
+}
 .column {
     float: left;
     width: 30%;
