@@ -160,16 +160,14 @@ button {
   .header h1 span {
       color: orange;
   }
-/* #right { 
-    margin: 200px 20% 40px 0;
-    float:right;
-    }
-    
-#left { 
-    margin: 200px 40px 0 20% ;
-    float:left; 
-    clear: left;
-    } */
+  #cart {
+      display: flex;
+      margin-left: 40px;
+  }
+  #cart i {
+      justify-content: right;
+      background-color: #F6B400;
+  }
 .decker {
     background-color: rgb(215, 215, 224);
 }
