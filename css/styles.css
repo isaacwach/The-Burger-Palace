@@ -165,8 +165,8 @@ button {
       margin-left: 40px;
   }
   #cart i {
-      justify-content: right;
-      background-color: #F6B400;
+      text-align: center;
+      background-color: #E1EBE6;
   }
 .decker {
     background-color: rgb(215, 215, 224);
