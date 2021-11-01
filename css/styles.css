@@ -276,3 +276,16 @@ button:hover {
 .image-1 {
     height: 50px;
   }
+.new {
+    position: absolute;
+    background-color: #FF6021;
+    color: white;
+    font-size: 24px;
+    width: 300px;
+    transform: rotate(45deg);
+    right: -100px;
+    top: 30px;
+}
+body {
+    margin: 20px 100px;
+}
