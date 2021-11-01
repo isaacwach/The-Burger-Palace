@@ -197,13 +197,23 @@ button:hover {
     color: rgb(255, 165, 0);
 }
 .row .mobile {
-    width: 60%;
+    width: 100%;
     margin-top: 200px;
-    font-size: 30px;
+    font-size: 24px;
     margin-left: 70px;
+  }
+  .row .mobile img {
+      width: 50%;
+  }
+  .download {
+      display: flex;
+  }
+  .mob-image {
+      width: 70%;
   }
   .mobile-apps {
     background-color: rgb(255, 187, 0);
+    overflow: hidden;
   }
 .logo-col {
     display: flex;
