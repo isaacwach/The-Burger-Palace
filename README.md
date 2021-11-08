@@ -1,15 +1,11 @@
 # The Burger Palace
-#### {Brief description of application}, {Date of current version}
 #### By Isaac Wachira
 ## Description
 {This is a burger palace website. it provides a list of various burgers offered by the palace. the website contains a cart where a user can order the number of burger they need.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+*the website is easy to access. 
+It can be accessed from any internet enabled device.
+The website will run in any browser but chrome is most prefered.
 ## Known Bugs
 The cart cannot add the total value.
 ## Technologies Used
